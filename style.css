@@ -1,0 +1,45 @@
+body{
+    margin: 0em;
+}
+li{
+    list-style: none;
+}
+.custom-container{
+    background-color: #e3597b;
+    display: flex;
+    margin: 0px;
+    width: 100%;
+}
+.logo{
+    width: 10em;
+    height: 5em;
+    margin: auto;
+}
+header .col-lg-5{
+    top: 5%;
+} 
+header .col-lg-4{
+    top: 20%;
+}
+header .col-xs-12{
+}
+.gnav{
+    width: 37.5em;
+    height: 5em;
+}
+.gnav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gnav li{
+    padding-left: 20px;
+    background:url(lamen-irasuto.png) left 0px top 3px no-repeat;
+    background-size: 20px 20px;
+}
+.gnav li:hover{
+    opacity: 0.5;
+    }
+.gnav a{
+    text-decoration: none;
+    color: #3d0f1b;
+}
