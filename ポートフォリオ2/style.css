@@ -413,6 +413,7 @@ textarea{
     color:#ffffff ;
 }
 footer{
+    margin-top: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
