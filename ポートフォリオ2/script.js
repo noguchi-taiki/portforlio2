@@ -1,13 +1,15 @@
 $(function(){
     $('.fas').on('click',()=>{
         $('.fas').css('visibility','hidden')
-        $('.mask').addClass('mask-active')
         $('.xs-gnav').css('display','flex')
+        $("body").css("background-color","#a3a3a3")
+        $("body").css("opacity","0.9")
     });
     $('.close').on('click',()=>{
-        $('.mask').removeClass('mask-active')
         $('.fas').css('visibility','visible')
         $('.xs-gnav').css('display','none')
+        $("body").css("background-color","#ffffff")
+        $("body").css("opacity","1")
     });
     $('.slid-img').slick({
         autoplay:true,
